@@ -31,3 +31,7 @@ body {
 .bg-custom--3 {
   background-image: url('../images/cover/cover-3.jpg');
 }
+
+.bs-bg-opacity {
+  --bs-bg-opacity: 0.05;
+}
