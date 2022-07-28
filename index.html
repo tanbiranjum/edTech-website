@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Pro Tech</title>
+    <title>Ed Tech</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -415,8 +415,8 @@
         >
           <div class="carousel-inner">
             <div class="carousel-item">
-              <div class="row gx-4">
-                <div class="col-lg-6">
+              <div class="row g-4">
+                <div class="col-md-12 col-lg-6">
                   <div class="card p-3">
                     <div class="card-header bg-white border border-0">
                       <div class="row justify-content-between">
@@ -460,7 +460,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-12 col-lg-6">
                   <div class="card p-3">
                     <div class="card-header bg-white border border-0">
                       <div class="row justify-content-between">
@@ -507,8 +507,8 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="row gx-4">
-                <div class="col-lg-6">
+              <div class="row g-4">
+                <div class="col-md-12 col-lg-6">
                   <div class="card p-3">
                     <div class="card-header bg-white border border-0">
                       <div class="row justify-content-between">
@@ -552,7 +552,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-12 col-lg-6">
                   <div class="card p-3">
                     <div class="card-header bg-white border border-0">
                       <div class="row justify-content-between">
@@ -599,8 +599,8 @@
               </div>
             </div>
             <div class="carousel-item active">
-              <div class="row gx-4">
-                <div class="col-lg-6">
+              <div class="row g-4">
+                <div class="col-md-12 col-lg-6">
                   <div class="card p-3">
                     <div class="card-header bg-white border border-0">
                       <div class="row justify-content-between">
@@ -644,7 +644,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-12 col-lg-6">
                   <div class="card p-3">
                     <div class="card-header bg-white border border-0">
                       <div class="row justify-content-between">
@@ -698,7 +698,7 @@
             data-bs-slide="prev"
           >
             <span
-              class="carousel-control-prev-icon bg-primary rounded-circle"
+              class="carousel-control-prev-icon bg-primary rounded-circle d-none d-lg-block"
               aria-hidden="true"
             ></span>
             <span class="visually-hidden">Previous</span>
@@ -710,7 +710,7 @@
             data-bs-slide="next"
           >
             <span
-              class="carousel-control-next-icon bg-primary rounded-circle"
+              class="carousel-control-next-icon bg-primary rounded-circle d-none d-lg-block"
               aria-hidden="true"
             ></span>
             <span class="visually-hidden">Next</span>
@@ -720,14 +720,14 @@
       <!-- Student Feedback Section End -->
       <!-- FAQ Section Start -->
       <section class="container mt-5">
-        <div class="w-50 text-center mx-auto">
+        <div class="custom-responsive-w text-center mx-auto">
           <h2>Frequently Asked Questions</h2>
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
         </div>
-        <div class="w-75 mx-auto mt-5">
+        <div class="custom-responsive-w mx-auto mt-5">
           <div class="accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item mb-3">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -748,29 +748,22 @@
                 aria-labelledby="panelsStayOpen-headingOne"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  Flexbox is designed for one dimensional layout. On the other
+                  hand Grid is designed for two dimensional layout.
                 </div>
               </div>
             </div>
-            <div class="accordion-item border border-1">
+            <div class="accordion-item border border-1 mb-3">
               <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button collapsed text-dark fw-bold"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseTwo"
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseTwo"
                 >
-                  Accordion Item #2
+                  Difference between Bootstrap and Tailwind Css
                 </button>
               </h2>
               <div
@@ -779,15 +772,58 @@
                 aria-labelledby="panelsStayOpen-headingTwo"
               >
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  Bootstrap is a pre-built component based css framework. On the
+                  other hand Tailwind is a utility first framework. Where
+                  developer write css by using utility class.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border border-1 mb-3">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button
+                  class="accordion-button collapsed text-dark fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFour"
+                >
+                  What is css box model?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour"
+              >
+                <div class="accordion-body">
+                  The CSS box model refers to how HTML elements are modeled in
+                  browser engines and how the dimensions of those HTML elements
+                  are derived from CSS properties.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border border-1">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button
+                  class="accordion-button collapsed text-dark fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  What is a semantic tag?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree"
+              >
+                <div class="accordion-body">
+                  Semantic tag is html tag which clearly describe and provide
+                  meaning to an HTML page.
                 </div>
               </div>
             </div>
@@ -796,7 +832,7 @@
       </section>
       <!-- FAQ Section End -->
       <!-- Company Logo Section Start -->
-      <section class="container mt-5">
+      <section class="d-none d-lg-block container mt-5">
         <h1 class="text-center">Trusted by over 800+ companies</h1>
         <div class="row mt-5 align-items-base">
           <div class="col">

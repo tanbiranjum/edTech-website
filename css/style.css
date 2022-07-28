@@ -35,3 +35,13 @@ body {
 .bs-bg-opacity {
   --bs-bg-opacity: 0.05;
 }
+
+.custom-responsive-w {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .custom-responsive-w {
+    width: 75%;
+  }
+}
